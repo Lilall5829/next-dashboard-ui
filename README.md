@@ -2,12 +2,13 @@
 
 ## Getting Started
 
-First, run the development server:
+### First, run the development server:
 
 ```
 npm install
+npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to see the result.
 
 Then start editing the page by modifying `app/page.tsx`.
