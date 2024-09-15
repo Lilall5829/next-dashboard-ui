@@ -1,26 +1,25 @@
-# Lama Dev School Management Dashboard
+# Dev School Management Dashboard
 
 ## Getting Started
 
-First, run the development server:
+### First, run the development server:
 
-```bash
+```
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Create a new folder under the app named admin
+Then start editing the page by modifying `admin/page.tsx`.
+Add some snippets to typescriptreact, search:
+```
+> Snipptes
+```
+Then, choose typescriptreact.json And add snippets to it
 
-## Learn More
+### Create admin/parent/student/teacher/sign-in pages under the app
 
-To learn more about Next.js, take a look at the following resources:
+### app/layout is the root layout for all of pages
 
-- [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
-- [Next.js](https://nextjs.org/learn)
