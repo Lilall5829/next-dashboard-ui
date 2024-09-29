@@ -9,17 +9,27 @@ npm install
 npm run dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) to see the result.
+  Visit [http://localhost:3000](http://localhost:3000) to see the result.
 
-### Create a new folder under the app named admin
-Then start editing the page by modifying `admin/page.tsx`.
-Add some snippets to typescriptreact, search:
+### Add some snippets to typescriptreact, search:
 ```
-> Snipptes
+> Snippets
 ```
-Then, choose typescriptreact.json And add snippets to it
+  Then, choose typescriptreact.json And add snippets to it.
 
-### Create admin/parent/student/teacher/sign-in pages under the app
+### Create admin/parent/student/teacher pages under the app/(dashboard)
 
-### app/layout is the root layout for all of pages
+- app/layout is the root layout for all of the pages
+- Create a layout.tsx for the dashboard folder
+- Add **parenthesis** to the folder's name so that React can ignore it when typing the path in the browser.
 
+### Create sign-in folder under the app
+### Create components folder under the src
+- Create Menu.tsx and Navbar.tsx
+### Edit the dashboard layout
+Redirect to the homepage
+```js
+<Link href="/">
+  <Image src="/logo.png" /> /*there is a slash before the "logo.png" */
+</Link>
+```
